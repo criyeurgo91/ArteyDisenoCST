@@ -5,6 +5,7 @@ import Products from '../Products'
 import Navbar from '../../Components/Navbar'
 import Header from '../../Components/Header'
 import OrderProduct from '../../Components/Orderproduct'
+import Footer from '../../Components/Footer'
 
 
 
@@ -23,6 +24,7 @@ const App = ()=>{
                 <Header/>
                 <AppRoutes/>
                 <Navbar/>
+                <Footer/>
             </BrowserRouter>
             <OrderProduct/>
         </CartContextProvider>

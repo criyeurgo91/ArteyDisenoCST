@@ -3,7 +3,8 @@ import {CartContext} from '../Context'
 
 const Card = (data) => {
     const context = useContext(CartContext);
-    
+    console.log("datadatadatadatadatadata")
+    console.log(data.data)
     // function to save a selected product
     const showProduct = (productDetail) => {
       context.closeOrderProduct()
